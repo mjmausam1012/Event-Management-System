@@ -1,0 +1,204 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.head {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head img {
+    height: 80px;
+    position: relative;
+    left: -3vh;
+}
+
+.head h1 {
+    color: red;
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.head li {
+    list-style: inside;
+}
+
+.navigation {
+    margin: 2px;
+    padding: 5px;
+    border: 2px solid rgba(250, 100, 3, 0.75);
+    border-radius: 15px;
+}
+
+.navigation ul li a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navigation ul li {
+    display: inline-block;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    background-color: rgba(250, 100, 3, 0.75);
+    border-radius: 20px;
+    padding: 3px 12px 3px 12px;
+    margin: 5px;
+}
+
+.main {
+    justify-content: center;
+    text-align: center;
+}
+
+.main img {
+    height: 100vh;
+    width: 95vw;
+    opacity: 0.75;
+    border-radius: 20px;
+}
+
+.main form{
+    position: relative;
+    top: -91vh;
+    width: 50vh;
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    opacity: 0.9;
+}
+
+.main form label{
+    padding: 10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+.main form input{
+    padding: 5px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+}
+
+.main form select{
+    padding: 5px;
+}
+
+.button1{
+    padding-top: 20px;
+}
+
+.submit1 {
+    border: none;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    border-radius: 10px;
+    padding: 10px 25px 10px 25px;
+}
+
+.reset1 {
+    border: none;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    border-radius: 10px;
+    padding: 10px 25px 10px 25px;
+}
+
+.submit1:hover {
+    background-color: green;
+    color: white;
+}
+
+.reset1:hover {
+    background-color: red;
+    color: white;
+}
+
+.footer {
+    justify-content: center;
+    text-align: center;
+}
+
+.footer h2 {
+    margin: 5px;
+    padding: 10px;
+    position: relative;
+    top: -75vh;
+    border: 2px solid green;
+    border-radius: 15px;
+    background-color: green;
+    color: white;
+}
+
+.footer ul {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+    gap: 50px;
+}
+
+.footer ul li {
+    position: relative;
+    top: -70vh;
+    cursor: pointer;
+    display: inline-block;
+    font-family: poppins;
+    font-size: 18px;
+    background-color: rgb(250, 102, 3);
+    color: white;
+    text-shadow: 1px 0 black, 0 2px black, 2px 0 black, 0 1px black;
+    border-radius: 20px;
+    padding: 3px 12px 3px 12px;
+    margin: 5px;
+}
+
+.footer ul li:hover {
+    background-color: green;
+}
+
+.social {
+    display: inline-block;
+    position: relative;
+    top: -70vh;
+}
+
+.social a {
+    text-decoration: none;
+    font-size: 30px;
+    color: red;
+    padding: 45px;
+}
+
+.social a:hover {
+    color: blue;
+}
+
+.footer p {
+    position: relative;
+    top: -70vh;
+    background-color: blue;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+}
